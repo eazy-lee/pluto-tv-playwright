@@ -12,7 +12,7 @@ export class Player {
     private readonly _timeEnd: Locator = this.page.locator(""); //TODO: wright locator
     private readonly _unmuteButton: Locator = this.page.locator("div[class*='toggleVolumeContainer'] button[class*='unmuteButton']");
     private readonly _muteButton: Locator = this.page.locator("button[aria-label='Mute Volume']");
-    private readonly _toggleCaptionButton: Locator = this.page.locator(".captions-btn-atc");
+    private readonly _toggleCaptionButton: Locator = this.page.locator("button[class*='multiLanguageCcSettingsButton']");
     private readonly _captionSettingsButton: Locator = this.page.locator("button[class*='closedCaptionsStyleButton']");
     private readonly _addToFavoriteButton: Locator = this.page.locator(".add-to-favorite-atc");
     private readonly _addToWatchListButton: Locator = this.page.locator("button[class*='toggleWatchListButton']");
